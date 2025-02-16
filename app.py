@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Set up Google Generative AI (Gemini) API
-genai.configure(api_key="AIzaSyCiKYXquEGS7aU0qCUXFfIRVJepTv1X4Gs")
+genai.configure(api_key="")
 
 def review_code(code):
     """Uses Gemini AI to review Python code and suggest fixes."""
